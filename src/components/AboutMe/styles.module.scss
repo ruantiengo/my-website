@@ -1,0 +1,173 @@
+.aboutMeContainer{
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.introdution{
+    width: 50%;
+    top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1{
+        font-size: 3rem;
+        position: relative;
+        padding-bottom: 15px;
+        
+        &::after{
+            padding-left: 40px;
+            content: "";
+            height: 3px;
+            border-radius: 3px 3px 0 0;
+            width: 7%;
+            position: absolute;
+            bottom: 1px;
+            left: 0;
+            background: black;
+        }
+    }
+    h3{
+        margin-top: 1rem;
+        font-weight: 300;
+    }
+    p{
+        margin-top: 2rem;
+        font-weight: 300;
+    }
+}
+
+.bio{
+    margin-top: 2rem;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+
+}
+
+.aboutMe{
+    border: 1px solid black;
+    width: 400px;
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+    font: 2rem;
+}
+
+.questions{
+    border: 1px solid black;
+    width: 400px;
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+    font: 2rem;
+        .questionsContainer{
+            width: 80%;
+            .question{
+                border: 1px solid black;
+                color: white;
+                background: black;
+                padding: 5px;
+            }
+            .answer{
+                padding: 5px;
+                padding-bottom: 20px;
+            }
+        }
+}
+
+
+
+.bio {
+    
+    p{
+        margin: 0;
+        padding: 0;
+    }
+    .informationQuestion{
+        font-weight: bold;
+        margin: 0.5rem;
+    }
+    .informationAnswer{
+        font-weight: 300;
+    }
+    h2{
+        position: relative;
+        padding: 0 1rem;
+        padding-bottom: 15px;
+        margin-bottom: 2rem ;
+    
+        &::after{
+                content: "";
+                height: 3px;
+                border-radius: 3px 3px 0 0;
+                width: 100%;
+                position: absolute;
+                bottom: 1px;
+                left: 0;
+                display: flex;
+                justify-content: center;
+                background: black;
+        }
+    }
+    button{
+        margin-top: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        border: 1px solid black;
+        background: inherit;
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+
+        & a{
+            text-decoration: none;
+        }
+
+        &:hover{
+            border: 5px solid black;
+            font-weight: bold;
+        }
+    }
+   
+}
+
+@media (max-width: 1080px) {
+    
+    .bio{
+        flex-direction: column;
+        .aboutMe{
+            
+        }
+        .questions{
+            
+            margin-top: 3rem;
+        }
+    }
+}
+@media (max-width: 600px) {
+    .bio{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        .aboutMe{
+            width: 300px;
+        }
+        .questions{
+            margin-top: 3rem;
+            width: 300px;
+        }
+    }
+}

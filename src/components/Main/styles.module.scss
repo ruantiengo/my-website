@@ -1,0 +1,102 @@
+
+
+.mainContainer{
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://wallpaperaccess.com/full/39607.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    
+}
+.mainContent{
+    min-height: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 200;
+    font-size: 3rem;
+    height: 90vh;
+}
+.personalPhoto{
+    border-radius: 20rem;
+    height: 12rem;
+    border: 5px solid white;
+    margin-bottom: 2rem;
+    animation-name: moveInTop;
+    animation-duration: 1s;
+    max-width: 200px;
+}
+
+.nameTitle{
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    margin-top: 1rem;
+    margin-bottom: 1.3rem;
+    font-weight: bold;
+    font-size: 6rem;
+    display: block;
+    animation-name: respawnMiddle;
+    animation-duration: 2s;
+    
+}
+
+.introduction{
+    animation-name: respawnMiddle;
+    animation-duration: 1s;
+}
+.profession{
+    animation-name: respawnMiddle;
+    animation-duration: 1s;
+}
+
+
+.mouse{
+    animation-name: mouseMoviment;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
+}
+
+// animations
+@keyframes mouseMoviment{
+    0%{
+        opacity: 1;
+        transform: translateY(-2rem);
+    }
+    50%{
+        opacity: 1;
+        transform: translateY(-1rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(-2rem);
+    }
+    
+}
+
+
+//media
+@media (max-width: 1080px) {
+    .mainContent{
+        font-size: 2.5rem;
+        height: 100vh;
+    }
+    .nameTitle{
+        font-size: 5rem;
+    }
+}
+@media (max-width: 720px) {
+    .mainContent{
+        font-size: 1.5rem;
+    }
+    .nameTitle{
+        font-size: 3.5rem;
+    }
+}

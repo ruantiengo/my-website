@@ -1,0 +1,83 @@
+.gitContainer{
+    margin-top: 5rem;
+    height: 400px;
+    background: #333 url('/images/chess.jpg')  50% 80% fixed;
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.pattern {
+    background: url('https://ftuyama.com/public/images/noise.webp') ;
+    background-repeat: repeat;
+    height: 400px;
+    width: 100%;
+    
+}
+
+.gitContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    animation-name: respawnMiddle;
+    animation-duration: 2s;
+    .gitItem{
+        width: 400px;
+        color: #dddddd;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        .inf{
+            margin-top: 1rem;
+            font-size: 6rem;
+            font-weight: 300;
+        }
+        p{  
+            font-size: 2rem;
+            font-weight: 100;
+        }
+
+        &:hover{
+            color: white;
+        }
+    }
+
+    
+}
+
+@media (max-width: 1280px) {
+    .gitContainer{
+        height: 1300px;
+    }
+    .pattern{
+        height: 1300px;
+    }
+    .gitContent{
+        flex-direction: column;
+        
+        margin-top: 1rem;
+    }
+    .gitItem{
+        padding-bottom: 1rem;
+        border-bottom: 1px solid #dddddd;
+        margin-bottom: 1rem;
+    }
+    
+}
+
+@keyframes respawnMiddle{
+    0%{
+        opacity: 0;
+        
+
+    }
+    100%{
+        opacity: 1;
+        
+    }
+}

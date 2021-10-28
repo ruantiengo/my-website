@@ -1,0 +1,23 @@
+body,p{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body,input,textarea, button{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(black);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+:root{
+    --white: #ffffff;
+    --black: #23282b;
+
+}
+
