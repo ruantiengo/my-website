@@ -32,7 +32,7 @@ export function AboutMe(){
                         <p className={styles.informationAnswer}>🇧🇷 MG-BR</p>
 
                         <button type="button"><a href="https://www.github.com/ruantiengo" target="_blank" rel="noreferrer">CURRICULUM</a></button>
-                        <button type="button"><a href="https://www.github.com/ruantiengo" target="_blank" rel="noreferrer">GITHUB</a></button>
+                        <button type="button"><a href="https://www.github.com/ruantiengo" target="_blank" >GITHUB</a></button>
                     </div>
 
                     <div className={styles.questions}>

@@ -4,6 +4,7 @@ import type { NextPage } from 'next'
 
 import { AboutMe } from '../components/AboutMe'
 import { Main } from '../components/Main'
+
 import { Programming } from '../components/Programming'
 import { Repositories } from '../components/Repositories'
 
