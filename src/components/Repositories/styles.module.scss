@@ -15,21 +15,24 @@
     background-repeat: repeat;
     height: 400px;
     width: 100%;
-    
+    display: flex;
+    justify-content: center;
 }
 
 .gitContent{
     display: flex;
-    justify-content: center;
+    width: 70%;
+    justify-content: space-between;
     align-items: center;
     margin-top: 2rem;
-
+    
     .gitItem{
-        
+            
         color: #dddddd;
         display: flex;
         flex-direction: column;
         align-items: center;
+        
         
         .inf{
             margin-top: 1rem;
