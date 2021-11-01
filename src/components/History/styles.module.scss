@@ -1,14 +1,4 @@
-.storyContent{
-    height: 100vh;
-    width: 100%;
-    background-color: var(--white);
-    font-family: 'raleway','lato';
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    
-}
+
 
 
 
@@ -139,10 +129,15 @@
   background: black;
   margin-left: 3rem;
   font-size: 2rem;
+  
   color: white;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; 
+  h1{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
   
 }
 

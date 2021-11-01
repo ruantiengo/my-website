@@ -1,0 +1,72 @@
+.footerContainer{
+    background-color: #181818;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .footerContent{
+        max-width: 1080px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        
+        a{
+            margin-left: 1rem;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 1.5rem;
+            background-color: #4c4c4c;
+            transition: 0.3s;
+            
+        }
+        .facebook{
+            &:hover{
+            background: #1877f2;
+            }
+        }
+        .twitter{
+            &:hover{
+                background: rgb(29, 155, 240);
+            }
+        }
+        .youtube{
+            &:hover{
+                background: red;
+            }
+        }
+        .github{
+            &:hover{
+                background: #1f6feb;
+            }
+        }
+        .linkedin{
+            &:hover{
+                background: #0e76a8;
+            }
+        }
+    }
+}
+
+.autor{
+    color: rgb(90, 86, 86);
+    opacity: 1;
+    position: relative;
+    font-size: 0.7rem;
+    top: 65px;
+    
+}
+
+@media (max-width: 720px){
+    .footerContainer{
+        height: 300px;
+        .footerContent{
+            flex-direction: row;
+            font-size: 3rem;
+        }
+    }
+    
+}

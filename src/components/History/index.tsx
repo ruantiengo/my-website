@@ -54,7 +54,7 @@ export function Historic() {
                     <div className={styles['content-left']}>
                         <h3>MEU GURU <span>(July 2021 - Now)</span></h3>
                         <h4>Tutor</h4>
-                        <p>I'm working here as a freelancer helping people to solve their problems<span className={styles['article-number']}>01</span></p>
+                        <p>I'm working here as a freelancer helping people to solve their problems<span className={styles['article-number']}>03</span></p>
                     </div>
 
                 </div>
