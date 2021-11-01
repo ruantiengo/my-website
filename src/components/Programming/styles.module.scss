@@ -4,6 +4,7 @@
     background-image: url('https://wallpaperaccess.com/full/34322.jpg');
     background-position: center;
     background-size: cover;
+    font-family: 'Lato', sans-serif;
 }
 
 .pattern {
@@ -46,7 +47,7 @@
     h2{
         display: flex;
         justify-content: center;
-        font-size: 2rem;
+        font-size: 2.5rem;
         position: relative;
         padding-bottom: 20px;
         margin-bottom: 0;
@@ -64,7 +65,9 @@
         }
     }
     h3{
-        font-weight: 300;
+        font-weight: 200;
+        font-size: 1.2rem;
+        padding-top: 1rem;
         margin-bottom: 3rem;
     }
 
@@ -110,6 +113,9 @@
 }
 
 .languageContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 60%;
     h2{
         margin-top: 5rem;

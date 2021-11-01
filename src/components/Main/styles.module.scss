@@ -22,8 +22,16 @@
     font-weight: 200;
     font-size: 3rem;
     height: 90vh;
+    font-family: 'Lato', sans-serif;
+    .introduction{
+        font-weight: 200;
+    }
+    .profession{
+        font-weight: 200;
+    }
 }
 .personalPhoto{
+    
     border-radius: 20rem;
     height: 12rem;
     border: 5px solid white;
@@ -46,14 +54,7 @@
     
 }
 
-.introduction{
-    animation-name: respawnMiddle;
-    animation-duration: 1s;
-}
-.profession{
-    animation-name: respawnMiddle;
-    animation-duration: 1s;
-}
+
 
 
 .mouse{
