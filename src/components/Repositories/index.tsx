@@ -29,7 +29,7 @@ export function Repositories() {
                     <div className={styles.gitItem}>
                         <GiTalk color='#dddddd' size='100px' />
                         <p className={styles.inf}>3</p>
-                        <p>Human languages</p>
+                        <p>Natural languages</p>
                     </div>
                     <div className={styles.gitItem}>
                         <BsBook color='#dddddd' size='100px' />
