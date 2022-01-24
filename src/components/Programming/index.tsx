@@ -25,6 +25,8 @@ export function Programming() {
                             <div className={styles.loader}><span>25%</span></div>
                             <h3>TOOLING</h3>
                             <p>PostgresSQL</p>
+                            <p>Mongodb</p>
+                            <p>Mysql</p>
                             <p></p>
                         </div>
                     </div>

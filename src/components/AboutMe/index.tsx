@@ -31,7 +31,7 @@ export function AboutMe() {
                         <p className={styles.informationQuestion}>LOCATION</p>
                         <p className={styles.informationAnswer}>🇧🇷 MG-BR</p>
 
-                        <button type="button"><a href="https://download1322.mediafire.com/t4ify9v7vxrg/rthe1g79cwwi6f5/Curr%C3%ADculo.pdf" target="_blank" rel="noreferrer">CURRICULUM</a></button>
+                        <button type="button"><a href="others/curriculo.pdf" target="_blank" rel="noreferrer">CURRICULUM</a></button>
                         <button type="button"><a href="https://www.github.com/ruantiengo" target="_blank" rel="noreferrer" >GITHUB</a></button>
                     </div>
 
