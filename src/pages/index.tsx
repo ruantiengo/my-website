@@ -19,7 +19,6 @@ const Home: NextPage = (props) => {
 
   return (
     <>  
-      <title>Ruan Tiengo</title>
       <Main />
       <AboutMe />
       <Repositories />
