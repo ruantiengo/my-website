@@ -1,8 +1,4 @@
 import type { NextPage } from 'next'
-import { Head } from 'next/document'
-
-
-
 import { AboutMe } from '../components/AboutMe'
 import { Certificates } from '../components/Certificates'
 import { Footer } from '../components/Footer'
