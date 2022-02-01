@@ -49,6 +49,7 @@
 .timeline-article .content-left-container,
 .timeline-article .content-right-container {
   max-width: 44%;
+  margin-bottom: 1rem;
   width: 100%;
 }
 .timeline-article .timeline-author {
@@ -179,7 +180,14 @@
     padding: 10px 25px;
     min-height: 65px;
   }
-  
+  .timeline-article .content-right:last-child{
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .timeline-article .content-left:last-child{
+    
+    padding-bottom: 2rem;
+  }
   .timeline-article .content-right:before {
     display: none;
   }

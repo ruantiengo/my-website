@@ -1,4 +1,5 @@
 import type { NextPage } from 'next'
+import { Head } from 'next/document'
 
 
 
@@ -17,7 +18,8 @@ const Home: NextPage = (props) => {
   console.log(props);
 
   return (
-    <>
+    <>  
+      <title>Ruan Tiengo</title>
       <Main />
       <AboutMe />
       <Repositories />
