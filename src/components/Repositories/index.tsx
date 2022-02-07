@@ -5,9 +5,13 @@ import { CgCoffee } from 'react-icons/cg'
 import { GiTalk } from 'react-icons/gi'
 import { useEffect, useState } from 'react';
 
+
+
+
+
 export function Repositories() {
     const [github, setGithub] = useState([]);
-    const [userChess, setUserChess] = useState([]);
+    
 
     useEffect(() => {
         fetch('https://api.github.com/users/ruantiengo/repos').then(res => res.json()).then(data => {
@@ -15,7 +19,8 @@ export function Repositories() {
         })
 
     }, [])
-
+ 
+    
 
     return (
         <div className={styles.gitContainer}>

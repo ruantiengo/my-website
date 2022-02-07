@@ -11,8 +11,7 @@ import { Repositories } from '../components/Repositories'
 
 
 const Home: NextPage = (props) => {
-  console.log(props);
-
+  
   return (
     <>  
       <Main />
