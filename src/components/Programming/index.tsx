@@ -129,7 +129,7 @@ export function Programming() {
                                     <div className={`${styles.percentLevel} ${styles.green} `}></div>
                                     <div className={`${styles.percentLevel} ${styles.green} `}></div>
                                     <div className={`${styles.percentLevel} ${styles.background} `}></div>
-
+                                    <div className={styles.percent}>80% </div>
                                 </div>
 
                             </div>
