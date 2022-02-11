@@ -36,8 +36,6 @@
     height: 12rem;
     border: 5px solid white;
     margin-bottom: 2rem;
-    animation-name: moveInTop;
-    animation-duration: 1s;
     max-width: 200px;
 }
 
@@ -49,9 +47,7 @@
     font-weight: bold;
     font-size: 6rem;
     display: block;
-    animation-name: respawnMiddle;
-    animation-duration: 2s;
-    
+
 }
 
 
@@ -85,9 +81,11 @@
 
 //media
 @media (max-width: 1080px) {
+
     .mainContent{
         font-size: 2.5rem;
         height: 100vh;
+        margin-bottom: 8rem;
     }
     .nameTitle{
         font-size: 5rem;
@@ -96,6 +94,11 @@
 @media (max-width: 720px) {
     .mainContent{
         font-size: 1.5rem;
+       
+    }
+    .personalPhoto{
+        border-radius: 20rem;
+        
     }
     .nameTitle{
         font-size: 3.5rem;

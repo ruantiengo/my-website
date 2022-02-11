@@ -71,6 +71,12 @@
         .footerContent{
             flex-direction: row;
             font-size: 3rem;
+            a{
+                font-size: 0.7rem;
+            }
+            .linkedin{
+                margin-right: 1rem;
+            }
         }
     }
     

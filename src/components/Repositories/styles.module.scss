@@ -1,7 +1,7 @@
 .gitContainer{
     margin-top: 5rem;
     height: 400px;
-    background: #333 url('/images/chess.jpg')  50% 80% fixed;
+    background: #333 url('/images/fundo-bolhas.webp')  50% 80% fixed;
     background-position: center;
     background-size:cover;
     display: flex;
@@ -11,7 +11,7 @@
 }
 
 .pattern {
-    background: url('https://ftuyama.com/public/images/noise.webp') ;
+    background: url('/images/noise.webp') ;
     background-repeat: repeat;
     height: 400px;
     width: 100%;

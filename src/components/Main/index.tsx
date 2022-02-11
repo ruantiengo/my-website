@@ -18,7 +18,7 @@ export function Main(){
         <div className={styles.mainContainer}>
             <div className={styles.mainContent}>
                     <div className={styles.personalPhoto}>
-                    <Image src='/images/pp.png' width='200px' height='192px' className={styles.personalPhoto}/>
+                    <Image src='/images/pp.webp' width='200px' height='192px' className={styles.personalPhoto}/>
                     </div>
                     <span className={styles.introduction}>Hello, It's me</span> 
                     <span className={styles.nameTitle}>Ruan Tiengo</span>
