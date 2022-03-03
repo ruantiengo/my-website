@@ -6,6 +6,7 @@ import { Historic } from '../components/History'
 import { Main } from '../components/Main'
 import { Programming } from '../components/Programming'
 import { Repositories } from '../components/Repositories'
+import Meta from '../utils/Meta'
 
 
 
@@ -13,7 +14,8 @@ import { Repositories } from '../components/Repositories'
 const Home: NextPage = (props) => {
   
   return (
-    <>  
+    <>
+      <Meta/>
       <Main />
       <AboutMe />
       <Repositories />
