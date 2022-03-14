@@ -7,12 +7,13 @@ import { Main } from "../components/Main";
 import { Programming } from "../components/Programming";
 import { Repositories } from "../components/Repositories";
 import Meta from "../utils/Meta";
-
+import { GA_TRACKING_ID } from "../lib/gtag";
 const Home: NextPage = (props) => {
   return (
     <>
       <Meta />
       <Main />
+      {console.log(GA_TRACKING_ID)}
       <AboutMe />
       <Repositories />
       <Historic />
