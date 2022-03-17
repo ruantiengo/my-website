@@ -4,5 +4,5 @@ export const AppConfig = {
   description:
     "Hello, my name is Ruan Tiengo and I am a remote software developer",
   locale: "pt_BR",
-  canonical: "www.ruantiengo.com",
+  canonical: "https://www.ruantiengo.com",
 };
